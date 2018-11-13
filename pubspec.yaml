@@ -7,8 +7,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-dev_dependencies:
   flutter_test:
     sdk: flutter
   # image_picker: 0.1.1                                             # new
