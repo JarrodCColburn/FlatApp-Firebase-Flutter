@@ -78,8 +78,9 @@ class LoginScreenState extends State<LoginScreen> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         new Center(
-                            child: new Image(
-                          image: logo,
+                            child: new Image.asset(
+                              'assets/logo.png',
+                          // image: Image.asset('assets/log'),
                           width: (screenSize.width < 500)
                               ? 120.0
                               : (screenSize.width / 4) + 12.0,
