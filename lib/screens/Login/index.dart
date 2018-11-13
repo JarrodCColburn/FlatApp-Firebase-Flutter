@@ -68,7 +68,7 @@ class LoginScreenState extends State<LoginScreen> {
             controller: scrollController,
             child: new Container(
               padding: new EdgeInsets.all(16.0),
-              decoration: new BoxDecoration(image: backgroundImage),
+              // decoration: new BoxDecoration(image: backgroundImage),
               child: new Column(
                 children: <Widget>[
                   new Container(
@@ -77,15 +77,14 @@ class LoginScreenState extends State<LoginScreen> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        new Center(
-                            child: new Image.asset(
-                              'assets/logo.png',
+                        // new Center(
+                            // child: new Image.asset(
                           // image: Image.asset('assets/log'),
-                          width: (screenSize.width < 500)
-                              ? 120.0
-                              : (screenSize.width / 4) + 12.0,
-                          height: screenSize.height / 4 + 20,
-                        ))
+                          // width: (screenSize.width < 500)
+                              // ? 120.0
+                              // : (screenSize.width / 4) + 12.0,
+                          // height: screenSize.height / 4 + 20,
+                        // ))
                       ],
                     ),
                   ),
