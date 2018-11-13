@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 TextStyle textStyle = const TextStyle(
-    color: const Color(0XFFFFFFFF),
+    // color: const Color(0XFFFFFFFF),
     fontSize: 16.0,
     fontWeight: FontWeight.normal);
 

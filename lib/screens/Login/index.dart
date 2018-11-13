@@ -106,7 +106,7 @@ class LoginScreenState extends State<LoginScreen> {
                                   textStyle: textStyle,
                                   textFieldColor: textFieldColor,
                                   icon: Icons.mail_outline,
-                                  iconColor: Colors.white,
+                                  // iconColor: Colors.white,
                                   bottomMargin: 20.0,
                                   validateFunction: validations.validateEmail,
                                   onSaved: (String email) {
@@ -119,7 +119,7 @@ class LoginScreenState extends State<LoginScreen> {
                                   textStyle: textStyle,
                                   textFieldColor: textFieldColor,
                                   icon: Icons.lock_open,
-                                  iconColor: Colors.white,
+                                  // iconColor: Colors.white,
                                   bottomMargin: 30.0,
                                   validateFunction:
                                       validations.validatePassword,
